@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body
+{
+    font-size: 16px;
+}
+section
+{
+    max-width: 100%;
+    width: 60%;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./felipe-simo-HBop_t9V9kM-unsplash.jpg) no-repeat;
+}
+.head
+{
+    color: white;
+    padding-right: 40px;
+}
+h1
+{
+    font-size: 50px;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+p
+{
+    line-height: 35px;
+    opacity: 10;
+    margin-bottom: 20px;
+}
+.top
+{
+    width: 90%;
+    background-color: #6600CC;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.875em;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+.form
+{
+    width: 90%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    border-radius: 10px;
+}
+input,button
+{
+    padding: 17px 25px;
+    margin-bottom: 18px;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    font-weight: 600;
+}
+button
+{
+    text-transform: uppercase;
+    background-color: #FF9900;
+    color: white;
+    font-size: 20px;    
+}
